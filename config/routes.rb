@@ -20,7 +20,7 @@ patch 'pictures/:id'     => 'pictures#update'
 
 
 #delete picture
-
+delete 'pictures/:id' => 'pictures#destroy'
 
 
 end
